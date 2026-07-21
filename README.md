@@ -1,4 +1,5 @@
 # Pokédex
+<img width="382" height="845" alt="image" src="https://github.com/user-attachments/assets/d94196c4-ce2e-48b1-85c5-85b5f05f3083" />
 
 Projeto Full Stack de uma Pokédex desenvolvido para estudo de desenvolvimento web.
 
