@@ -5,8 +5,13 @@ Projeto Full Stack de uma Pokédex desenvolvido para estudo de desenvolvimento w
 A aplicação permite buscar Pokémon através da PokeAPI, exibindo informações como imagem, tipo, descrição, habilidades e status. Os dados pesquisados também são armazenados em um banco de dados MySQL.
 ## Demonstração
 
-<img src="https://github.com/user-attachments/assets/d94196c4-ce2e-48b1-85c5-85b5f05f3083" width="300">
-
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/d94196c4-ce2e-48b1-85c5-85b5f05f3083"
+    width="300"
+    alt="Pokédex"
+  />
+</p>
 ## Tecnologias utilizadas
 
 ### Frontend
