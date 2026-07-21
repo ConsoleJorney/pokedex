@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="pokedex">
+
+        <div class="topo">
+
+            <div class="luz-grande"></div>
+
+            <div class="luzes">
+
+                <div class="luz vermelha"></div>
+                <div class="luz amarela"></div>
+                <div class="luz verde"></div>
+
+            </div>
+
+        </div>
+
+        <div class="tela">
+
+            <img id="imagemPokemon" src="" alt="Pokémon">
+
+        </div>
+
+        <div class="pesquisa">
+
+            <input id="nomePokemon" type="text" placeholder="Digite um Pokémon">
+
+            <button onclick="buscarPokemon()">
+
+                Buscar
+
+            </button>
+
+        </div>
+
+        <div class="informacoes">
+
+            <h2 id="nome">Pokémon</h2>
+
+            <p><strong>Nº:</strong> <span id="numero"></span></p>
+
+            <p><strong>Tipo:</strong> <span id="tipo"></span></p>
+
+            <p><strong>Altura:</strong> <span id="altura"></span></p>
+
+            <p><strong>Peso:</strong> <span id="peso"></span></p>
+
+            <p id="descricao"></p>
+
+        </div>
+        <div class="status">
+
+            <h3>Status</h3>
+
+            <p><strong>HP:</strong> <span id="hp"></span></p>
+
+            <p><strong>Ataque:</strong> <span id="ataque"></span></p>
+
+            <p><strong>Defesa:</strong> <span id="defesa"></span></p>
+
+            <p><strong>Ataque Especial:</strong> <span id="ataqueEspecial"></span></p>
+
+            <p><strong>Defesa Especial:</strong> <span id="defesaEspecial"></span></p>
+
+            <p><strong>Velocidade:</strong> <span id="velocidade"></span></p>
+
+            <p>
+                <strong>Habilidade:</strong>
+                <span id="habilidade"></span>
+            </p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
